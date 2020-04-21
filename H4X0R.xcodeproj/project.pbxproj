@@ -13,6 +13,10 @@
 		49F886BA244E49E200F5747E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F886B9244E49E200F5747E /* Assets.xcassets */; };
 		49F886BD244E49E200F5747E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F886BC244E49E200F5747E /* Preview Assets.xcassets */; };
 		49F886C0244E49E200F5747E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F886BE244E49E200F5747E /* LaunchScreen.storyboard */; };
+		49F886CB244E500700F5747E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F886CA244E500700F5747E /* NetworkManager.swift */; };
+		49F886CD244E521400F5747E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F886CC244E521400F5747E /* PostData.swift */; };
+		49F886D0244E714900F5747E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F886CF244E714900F5747E /* DetailView.swift */; };
+		49F886D2244E749A00F5747E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F886D1244E749A00F5747E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		49F886BC244E49E200F5747E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49F886BF244E49E200F5747E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F886C1244E49E200F5747E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F886CA244E500700F5747E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		49F886CC244E521400F5747E /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		49F886CF244E714900F5747E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		49F886D1244E749A00F5747E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,8 @@
 			children = (
 				49F886B3244E49DD00F5747E /* AppDelegate.swift */,
 				49F886B5244E49DD00F5747E /* SceneDelegate.swift */,
-				49F886B7244E49DD00F5747E /* ContentView.swift */,
+				49F886CE244E712D00F5747E /* Views */,
+				49F886C7244E4F0300F5747E /* Models */,
 				49F886B9244E49E200F5747E /* Assets.xcassets */,
 				49F886BE244E49E200F5747E /* LaunchScreen.storyboard */,
 				49F886C1244E49E200F5747E /* Info.plist */,
@@ -73,6 +82,25 @@
 				49F886BC244E49E200F5747E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49F886C7244E4F0300F5747E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49F886CA244E500700F5747E /* NetworkManager.swift */,
+				49F886CC244E521400F5747E /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49F886CE244E712D00F5747E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49F886B7244E49DD00F5747E /* ContentView.swift */,
+				49F886D1244E749A00F5747E /* WebView.swift */,
+				49F886CF244E714900F5747E /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F886CD244E521400F5747E /* PostData.swift in Sources */,
+				49F886D0244E714900F5747E /* DetailView.swift in Sources */,
 				49F886B4244E49DD00F5747E /* AppDelegate.swift in Sources */,
 				49F886B6244E49DD00F5747E /* SceneDelegate.swift in Sources */,
+				49F886CB244E500700F5747E /* NetworkManager.swift in Sources */,
 				49F886B8244E49DD00F5747E /* ContentView.swift in Sources */,
+				49F886D2244E749A00F5747E /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
